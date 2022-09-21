@@ -6,7 +6,7 @@
 
 header{
     width: 100%;
-    height: 100px;
+    height: 100px ;
     background-color: rgb(184, 184, 184);
     display: flex;
     align-items: center;
@@ -30,7 +30,6 @@ footer{
     font-size: 20px;
     color: black;
     font-weight: bold;
-    margin-top: 20px;
 }
 main{
     font-size: 40px;
@@ -40,4 +39,10 @@ main{
 }
 .activeLink{
     color: blue;
+}
+#root{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
