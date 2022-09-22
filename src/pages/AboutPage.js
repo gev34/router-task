@@ -9,7 +9,7 @@ const AboutPage = () => {
     const postQuery = searchParams.get('post') || '';
     const latest = searchParams.has('latest');
 
-
+  
     const startsFrom = latest ? 80 : 1;
 
 

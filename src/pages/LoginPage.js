@@ -7,8 +7,8 @@ const Login = () => {
     const location = useLocation();
     const {signIn} = useAuth();
 
-    const fromPage = location.state?.from?.pathname || '/';
-
+    const fromPage = location.state.from.pathname;
+    //console.log(fromPage)
     const handleSubmit = (event) => {
         event.preventDefault();
         const form = event.target;
